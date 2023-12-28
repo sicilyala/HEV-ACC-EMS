@@ -1,0 +1,14 @@
+<routes>
+	<vType id="V1" length="12" maxSpeed="19.2"  accel="0.7" decel="1.5" carFollowModel="Krauss"/>
+	<vType id="V2" length="12" maxSpeed="19.2"  accel="0.7" decel="1.5" carFollowModel="IDM"/>
+	<vType id="V3" length="12" maxSpeed="19.2"  accel="0.7" decel="1.5" carFollowModel="ACC"/>
+	<route id="route1" edges="edg1" />
+	<route id="route2" edges="edg2" />
+	<route id="route3" edges="edg3" />
+	<vehicle id="001" route="route1" type="V1" color="yellow" depart="0" departPos="20" />
+	<vehicle id="002" route="route1" type="V1" color="red" depart="0" departSpeed="0" />
+	<vehicle id="003" route="route2" type="V2" color="yellow" depart="0" departPos="20" />
+	<vehicle id="004" route="route2" type="V2" color="red" depart="0" departSpeed="0" />
+	<vehicle id="005" route="route3" type="V3" color="yellow" depart="0" departPos="20" />
+	<vehicle id="006" route="route3" type="V3" color="red" depart="0" departSpeed="0" />
+</routes>

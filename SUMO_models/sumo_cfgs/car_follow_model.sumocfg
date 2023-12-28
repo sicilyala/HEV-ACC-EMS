@@ -1,0 +1,20 @@
+<configuration>
+    <input>
+        <net-file value="car_follow_model.net.xml"/>
+        <route-files value="car_follow_model.rou.xml"/>
+        <gui-settings-file value="car_follow.settings.xml"/>
+    </input>
+    <time>
+        <begin value="0"/>
+        <end value="20000"/>
+		<step-length value="1"/>
+    </time>
+	<gui_only>
+		<start value="t"/>
+		<quit-on-end value="False"/>
+	</gui_only>
+	<processing>
+        <lateral-resolution value="1"/>
+        <time-to-teleport value="-1"/>
+	</processing>
+</configuration>

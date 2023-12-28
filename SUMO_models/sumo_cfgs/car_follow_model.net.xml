@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 07/25/22 13:50:03 by Eclipse SUMO netconvert Version 1.8.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <node-files value="car_follow_model.nod.xml"/>
+        <edge-files value="car_follow_model.edg.xml"/>
+    </input>
+
+    <output>
+        <output-file value="car_follow_model.net.xml"/>
+    </output>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<net version="1.6" junctionCornerDetail="5" limitTurnSpeed="5.50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+
+    <location netOffset="500000.00,20.00" convBoundary="0.00,0.00,1000000.00,40.00" origBoundary="-500000.00,-20.00,500000.00,20.00" projParameter="!"/>
+
+    <edge id="edg1" from="001" to="002" priority="-1">
+        <lane id="edg1_0" index="0" speed="19.2" length="1000000.00" shape="0.00,18.40 1000000.00,18.40"/>
+    </edge>
+    <edge id="edg2" from="003" to="004" priority="-1">
+        <lane id="edg2_0" index="0" speed="19.2" length="1000000.00" shape="0.00,38.40 1000000.00,38.40"/>
+    </edge>
+    <edge id="edg3" from="005" to="006" priority="-1">
+        <lane id="edg3_0" index="0" speed="19.2" length="1000000.00" shape="0.00,-1.60 1000000.00,-1.60"/>
+    </edge>
+
+    <junction id="001" type="dead_end" x="0.00" y="20.00" incLanes="" intLanes="" shape="0.00,20.00 0.00,16.80"/>
+    <junction id="002" type="dead_end" x="1000000.00" y="20.00" incLanes="edg1_0" intLanes="" shape="1000000.00,16.80 1000000.00,20.00"/>
+    <junction id="003" type="dead_end" x="0.00" y="40.00" incLanes="" intLanes="" shape="0.00,40.00 0.00,36.80"/>
+    <junction id="004" type="dead_end" x="1000000.00" y="40.00" incLanes="edg2_0" intLanes="" shape="1000000.00,36.80 1000000.00,40.00"/>
+    <junction id="005" type="dead_end" x="0.00" y="0.00" incLanes="" intLanes="" shape="0.00,0.00 0.00,-3.20"/>
+    <junction id="006" type="dead_end" x="1000000.00" y="0.00" incLanes="edg3_0" intLanes="" shape="1000000.00,-3.20 1000000.00,0.00"/>
+
+</net>
