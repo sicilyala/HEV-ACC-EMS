@@ -1,0 +1,11 @@
+# ignore files listed below
+
+*.pyc
+/.idea/
+/common/data/
+/common/other model/
+*.zip
+SUMO_models/sumo_CF/
+
+ 
+
