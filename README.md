@@ -1,13 +1,10 @@
 @ARTICLE{10130313,
-
   author={Peng, Jiankun and Chen, Weiqi and Fan, Yi and He, Hongwen and Wei, Zhongbao and Ma, Chunye},
-  
   journal={IEEE Transactions on Transportation Electrification}, 
-  
-  title={Ecological Driving Framework of Hybrid Electric Vehicle Based on Heterogeneous Multi Agent Deep Reinforcement Learning}, 
-  
-  year={2023},
-  volume={},
-  number={},
-  pages={1-1},
+  title={Ecological Driving Framework of Hybrid Electric Vehicle Based on Heterogeneous Multi-Agent Deep Reinforcement Learning}, 
+  year={2024},
+  volume={10},
+  number={1},
+  pages={392-406},
+  keywords={Batteries;Optimization;Medical services;Fuels;Energy management;Hybrid electric vehicles;Automobiles;Adaptive cruise control (ACC);battery health;deep deterministic policy gradient;ecological driving;energy management;heterogeneous multi-agent},
   doi={10.1109/TTE.2023.3278350}}
