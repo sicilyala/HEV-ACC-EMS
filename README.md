@@ -11,9 +11,9 @@ Hybrid electric vehicles (HEVs) have great potential to be discovered in terms o
 
 ## Data
 
-1.**Driving Cycles can be found at this link.**
+1. **Driving Cycles can be found [here](https://github.com/sicilyala/project-data/tree/main/standard_driving_cycles).**
 
-1.**Power system data can be found at this link.**
+2. **Power system data can be found [here](https://github.com/sicilyala/project-data/tree/main/HEV_data).**
 
 
 ## Citation
@@ -28,6 +28,6 @@ year = {2024},
 doi = {10.1109/TTE.2023.3278350},
 url = {https://ieeexplore.ieee.org/abstract/document/10130313},
 author = {Peng, Jiankun and Chen, Weiqi and Fan, Yi and He, Hongwen and Wei, Zhongbao and Ma, Chunye},
-index-terms={Adaptive cruise control(ACC), battery health, deep deterministic policy gradient, ecological driving, energy management, heterogeneous multi-agent.},
+index-terms = {Adaptive cruise control(ACC), battery health, deep deterministic policy gradient, ecological driving, energy management, heterogeneous multi-agent.},
 }
 ```
